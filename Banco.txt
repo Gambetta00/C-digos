@@ -1,0 +1,47 @@
+CHINGLING
+│
+├── usuarios
+│   ├── id
+│   ├── nome
+│   ├── email
+│   ├── senha
+│   └── tipo
+│
+├── categorias
+│   ├── id
+│   ├── nome
+│   └── descricao
+│
+├── produtos
+│   ├── id
+│   ├── categoria_id
+│   ├── nome
+│   ├── descricao
+│   ├── preco
+│   ├── estoque
+│   └── imagem
+│
+├── pedidos
+│   ├── id
+│   ├── usuario_id
+│   ├── data_pedido
+│   ├── status
+│   └── total
+│
+├── itens_pedido
+│   ├── id
+│   ├── pedido_id
+│   ├── produto_id
+│   ├── quantidade
+│   └── preco
+│
+└── enderecos
+    ├── id
+    ├── usuario_id
+    ├── rua
+    ├── numero
+    ├── complemento
+    ├── bairro
+    ├── cidade
+    ├── estado
+    └── cep
