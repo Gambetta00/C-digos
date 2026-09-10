@@ -8,7 +8,7 @@ $Loja = $resultado->fetch_assoc();
 $servidor = "localhost";
 $usuario = "root";
 $senha = "";
-$banco = "TEMPORARIO";
+$banco = "chingling";
 
 $conexao = new mysqli(
     $servidor,
